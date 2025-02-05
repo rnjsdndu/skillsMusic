@@ -4,7 +4,7 @@ let categories = [];
 let basketItem = []
 
 async function getData() {
-    return await fetch('./music_data.json').then(response => response.json());
+    return await fetch('../music_data.json').then(response => response.json());
 }
 
 async function main() {
